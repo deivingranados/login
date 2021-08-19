@@ -1,0 +1,135 @@
+.content-name{
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+    border: solid 2px rgba(255, 0, 0, 0.123);
+}
+.container-corrdinador{
+    background: url(./images/mantenimiento.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+    width: 100% ;
+    text-align: center;
+   
+}
+.tablaText{
+   width: 80%;
+   background-color: red;
+   text-align: center;
+   color: white;
+   margin: auto;
+   margin-top: 52px;
+   margin-bottom: 10px;
+   padding: 5px;
+   border-radius: 30px;
+   cursor: pointer;
+}
+
+.categoria{
+   width: 80%;
+   background-color:blue;
+   text-align: center;
+   color: white;
+   margin: auto;
+   margin-bottom: 50px;
+   padding: 5px;
+   border-radius: 30px;
+   cursor: pointer;
+}
+#close{
+    width: 100%;
+}
+.btn-logout{
+    display: scroll;
+    position: fixed;
+    bottom: 72px;
+    right: 9px;
+    color: white;
+    font-family: "verdana, sans-serif";
+    font-size: 10px;
+    background-color: rgba(160, 41, 184, 0.945);
+    width: 50px;
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    height: 50px; 
+}
+.categoria-1{
+  margin: auto;
+  text-align: center;
+}
+.oro{
+    width: 90%;
+    background-color: gold;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 15px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.plata{
+    width: 90%;
+    background-color: silver;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 15px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+.bronce{
+    width: 90%;
+    background-color:#cd7f32;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 15px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+@media (min-width: 960px){
+    .container-fluids{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        padding: 5px;
+    }
+    .content-main{
+       width: 40%;
+      
+    } 
+
+    .contentTabla{
+        margin-top: 20px;
+        width: 100%;
+       
+    }
+    .container-categoria{
+        width: 100%;
+        margin-top: 150px;
+    
+    }
+ .categoria-1{
+        width: 50%;
+    }
+ .content-name{
+        margin: 0;
+        margin-top: 100px;
+     
+    }
+ .tablaText{
+       margin: 0;
+       margin-top: 52px;
+       margin-bottom: 10px;
+      }
+    
+ .categoria{
+       margin: 0;
+       margin-bottom: 50px;
+    }
+
+}
